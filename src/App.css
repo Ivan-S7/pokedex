@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, .app-container{
+    min-height: 100vh;
+    background-color: #1b1b32;
+}
+
+
+header{
+    background-color: rgb(36, 49, 49);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    color: rgb(217, 235, 240);
+    min-height: 300px;
+    
+}
+.app-title{
+    color: rgb(240, 240, 31);
+    font-weight: bold;
+    -webkit-text-stroke: 2px blue;
+    font-size: 65px;
+    font-family: 'Pokemon Solid', sans-serif;
+    margin-bottom: 50px;
+}
+
+.charmander, .pikachu, .bulbasaur{
+    width: 200px;
+    margin: 0px;
+    position: relative;
+}
+
+.charmander{
+    left: 125px;
+}
+
+.pikachu{
+    z-index: 100;
+}
+
+.bulbasaur{
+    right: 95px;
+}
+
+
+
+.pokedex-span{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: rgb(240, 240, 31);
+    -webkit-text-stroke: 2px blue;
+    font-weight: bold;
+}
+
+.app-subtitle{
+    margin-bottom: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.app-desc{
+    margin-top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+}
+
+/* --------------------------------description-instructions --------------------------------*/
+
+.description-instructions{
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------form--------------------------------------------- */
+
+.form-container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 55px;
+    margin-bottom: 20px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.input{
+    width: 65%;
+}
+
+button{
+    height: 39px;
+}
+
+.app-container{
+    background-color: #1b1b32;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* --------------------------------------------responsive--------------------------------------------------- */
+
+/* ----------------------------------------------standard------------------------------------------------ */
+
+
+header{
+    padding: 20px;
+    padding-bottom: 1px;
+}
+
+.app-title{
+    font-size: 58px;
+    margin-bottom: 65px;
+}
+
+
+
+.img-div{
+    margin-bottom: 40px;
+}
+
+.animate__animated{
+    width: 150px;
+}
+
+.charmander{
+    left: 95px;
+}
+
+.pikachu{
+    z-index: 100;
+}
+
+.bulbasaur{
+    right: 65px;
+}
+
+.app-subtitle{
+    font-size: 29px;
+}
+
+.app-desc{
+    font-size: 17px;
+}
+
+
+.description-instructions{
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+}
+
+input{
+    margin-right: 5px;
+}
+
+.form-btn{
+    height: 40px;
+}
+
+
+/* --------------------------------------max-width: 1200px ---------------------------------------------*/
+@media screen and (max-width:1200px) {
+    header{
+        padding: 20px;
+        padding-bottom: 1px;
+    }
+
+    .app-title{
+        font-size: 56px;
+        margin-bottom: 65px;
+    }
+
+    
+
+    .img-div{
+        margin-bottom: 40px;
+    }
+
+    .animate__animated{
+        width: 140px;
+    }
+
+    .charmander{
+        left: 80px;
+    }
+    
+    .pikachu{
+        z-index: 100;
+    }
+    
+    .bulbasaur{
+        right: 55px;
+    }
+
+    .app-subtitle{
+        font-size: 27px;
+    }
+
+    .app-desc{
+        font-size: 17px;
+    }
+
+
+    .description-instructions{
+        font-size: 20px;
+        padding: 0 10px 0 10px;
+    }
+
+    input{
+        margin-right: 5px;
+    }
+    
+    .form-btn{
+        height: 40px;
+    }
+}
+
+/* ------------------------------------------max-width: 1024px ---------------------------------------------*/
+
+@media screen and (max-width:1024px) {
+    
+    header{
+        padding: 20px;
+        padding-bottom: 1px;
+    }
+
+    .app-title{
+        font-size: 55px;
+        margin-bottom: 65px;
+    }
+
+    
+
+    .img-div{
+        margin-bottom: 40px;
+    }
+
+    .animate__animated{
+        width: 130px;
+    }
+
+    .charmander{
+        left: 75px;
+    }
+    
+    .pikachu{
+        z-index: 100;
+    }
+    
+    .bulbasaur{
+        right: 50px;
+    }
+
+    .app-subtitle{
+        font-size: 25px;
+    }
+
+    .app-desc{
+        font-size: 15px;
+    }
+
+
+    .description-instructions{
+        font-size: 16px;
+        padding: 0 10px 0 10px;
+    }
+
+    input{
+        margin-right: 5px;
+    }
+    
+    .form-btn{
+        height: 40px;
+    }
+
+
+}
+
+
+
+/* ----------------------------------------max-width: 770px ---------------------------------------------- */
+@media screen and (max-width: 770px) {
+    header{
+        padding: 20px;
+        padding-bottom: 1px;
+    }
+
+    .app-title{
+        font-size: 55px;
+        margin-bottom: 65px;
+    }
+
+    
+
+    .img-div{
+        margin-bottom: 40px;
+    }
+
+    .animate__animated{
+        width: 115px;
+    }
+
+    .charmander{
+        left: 70px;
+    }
+    
+    .pikachu{
+        z-index: 100;
+    }
+    
+    .bulbasaur{
+        right: 50px;
+    }
+
+    .app-subtitle{
+        font-size: 24px;
+    }
+
+    .app-desc{
+        font-size: 14px;
+    }
+
+
+    .description-instructions{
+        font-size: 16px;
+        padding: 0 10px 0 10px;
+    }
+
+    input{
+        margin-right: 5px;
+    }
+    
+    .form-btn{
+        height: 40px;
+    }
+}
+
+/* -----------------------------------max-width: 550px-------------------------------------------------- */
+
+@media screen and (max-width:550px) {
+    header{
+        padding: 20px;
+        padding-bottom: 1px;
+    }
+
+    .app-title{
+        font-size: 55px;
+        margin-bottom: 65px;
+    }
+
+    
+
+    .img-div{
+        margin-bottom: 40px;
+    }
+
+    .animate__animated{
+        width: 105px;
+    }
+
+    .charmander{
+        left: 70px;
+    }
+    
+    .pikachu{
+        z-index: 100;
+    }
+    
+    .bulbasaur{
+        right: 50px;
+    }
+
+    .app-subtitle{
+        font-size: 20px;
+    }
+
+    .app-desc{
+        font-size: 13px;
+    }
+
+
+    .description-instructions{
+        font-size: 16px;
+        padding: 0 10px 0 10px;
+    }
+
+    input{
+        margin-right: 5px;
+    }
+    
+    .form-btn{
+        height: 40px;
+    }
+}
+
+/* ---------------------------------------------max-width: 480px-------------------------------- */
+@media screen and (max-width:480px) {
+    header{
+        padding: 20px;
+        padding-bottom: 1px;
+    }
+
+    .app-title{
+        font-size: 55px;
+        margin-bottom: 65px;
+    }
+
+    
+
+    .img-div{
+        margin-bottom: 40px;
+    }
+
+    .animate__animated{
+        width: 105px;
+    }
+
+    .charmander{
+        left: 70px;
+    }
+    
+    .pikachu{
+        z-index: 100;
+    }
+    
+    .bulbasaur{
+        right: 50px;
+    }
+
+    .app-subtitle{
+        font-size: 20px;
+    }
+
+    .app-desc{
+        font-size: 13px;
+    }
+
+    
+
+    
+
+    .description-instructions{
+        font-size: 15px;
+        padding: 0 10px 0 10px;
+    }
+
+    input{
+        margin-right: 5px;
+    }
+    
+    .form-btn{
+        height: 40px;
+    }
+}
+
+
+/* -------------------------------------max-width: 390px---------------------------------------- */
+@media screen and (max-width:390px) {
+    header{
+        padding: 20px;
+        padding-bottom: 1px;
+    }
+
+    .app-title{
+        font-size: 50px;
+    }
+
+    .img-div{
+        margin-bottom: 40px;
+    }
+
+    .app-subtitle{
+        font-size: 18px;
+    }
+
+    .app-desc{
+        font-size: 11px;
+    }
+
+    .animate__animated{
+        width: 70px;
+    }
+
+    .charmander{
+        left: 40px;
+    }
+    
+    .pikachu{
+        z-index: 100;
+    }
+    
+    .bulbasaur{
+        right: 30px;
+    }
+
+    .description-instructions{
+        font-size: 15px;
+        padding: 0 10px 0 10px;
+    }
+
+    input{
+        margin-right: 5px;
+    }
+    
+    .form-btn{
+        height: 40px;
+    }
+}
+
+
