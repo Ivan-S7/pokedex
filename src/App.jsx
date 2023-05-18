@@ -108,7 +108,7 @@ const [type, setType] = useState([]);
 
         <div className='form-container'>
           <form  onSubmit={submit} className='form'  >
-            <input type="text" className='input form-control' placeholder='Type the pokemon name here' onChange={(e)=>setData(e.target.value)}  />
+            <input type="text" className='input form-control' placeholder='Type the pokemon name here' onChange={(e)=>setData(e.target.value.trim())}  />
             <button className='btn btn-primary form-btn' type="submit" >Search</button>
           </form>
         </div>
